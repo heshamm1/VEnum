@@ -54,5 +54,3 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 ## Disclaimer
 Please use this tool responsibly and only on target domains that you have permission to test. Unauthorized usage of this tool on systems you do not own or have explicit permission to test is illegal.
 
-## Lincense
-This tool is released under the MIT License.
