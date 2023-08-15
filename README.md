@@ -10,7 +10,7 @@
 
 # VEnum
 
-Subdomain Toolkit is a Bash script designed to automate subdomain enumeration and analysis. It combines various subdomain discovery tools and processes the results to provide a comprehensive list of subdomains for a given target domain. The script supports various options for customization and output handling.
+VEnum is a Bash script designed to automate subdomain enumeration and analysis. It combines various subdomain discovery tools and processes the results to provide a comprehensive list of subdomains for a given target domain. The script supports various options for customization and output handling.
 
 ## Features
 
