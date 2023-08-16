@@ -1,23 +1,24 @@
 ```
-                        ██╗   ██╗  ███████╗███╗   ██╗██╗   ██╗███╗   ███╗
-                        ██║   ██║  ██╔════╝████╗  ██║██║   ██║████╗ ████║
-                        ██║   ██║  █████╗  ██╔██╗ ██║██║   ██║██╔████╔██║
-                        ╚██╗ ██╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╔╝██║
-                         ╚████╔╝██╗███████╗██║ ╚████║╚██████╔╝██║ ╚═╝ ██║
-                          ╚═══╝ ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝
-                                  Subdomain Enumerateion Tool
+██╗   ██╗  ███████╗███╗   ██╗██╗   ██╗███╗   ███╗
+██║   ██║  ██╔════╝████╗  ██║██║   ██║████╗ ████║
+██║   ██║  █████╗  ██╔██╗ ██║██║   ██║██╔████╔██║
+╚██╗ ██╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╔╝██║
+ ╚████╔╝██╗███████╗██║ ╚████║╚██████╔╝██║ ╚═╝ ██║
+  ╚═══╝ ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝
+	  Subdomain Enumeration Script
 
-Usage: VEnum.sh -d TARGET [-f FILENAME] [-h] [-v] [--resolve IP_FILE] [--proxy PROXY] [--only TOOL1,TOOL2,...] [-a]
+Usage: $(basename "$0") [-d TARGET | -l FILENAME] [-f FILENAME] [-h] [-v] [--resolve IP_FILE] [--proxy PROXY] [--only TOOL1,TOOL2,...] [-a]
 
 Options:
-  -d       Target domain (required)
-  -f       Filepath and name to save results (default: subs.txt)
-  -h       Show this help message and exit
-  -v       Verbose output
-  --resolve    Resolve subdomains to IPs and save to specified file
-  --proxy  Use a proxy (format: http://IP:Port)
-  --only   Use specific tools (comma-separated list)
-  -a       Use all available tools (default)
+  -d       	Target domain
+  -l       	File containing a list of target domains (one per line)
+  -f       	Filepath and name to save results (default: subs.txt)
+  -h       	Show this help message and exit
+  -v       	Verbose output
+  --resolve     Resolve subdomains to IPs and save to specified file
+  --proxy  	Use a proxy (format: http://IP:Port)
+  --only   	Use specific tools (comma-separated list)
+  -a       	Use all available tools (default)
                                               
 ```
 
