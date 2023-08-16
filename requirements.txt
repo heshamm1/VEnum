@@ -1,4 +1,5 @@
 subfinder
 assetfinder
+findomain
 httprobe
-sublist3r
+
