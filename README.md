@@ -6,6 +6,8 @@
  ╚████╔╝██╗███████╗██║ ╚████║╚██████╔╝██║ ╚═╝ ██║
   ╚═══╝ ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝
 	  Subdomain Enumeration Script
+	        Created By Sh1Vv
+
 
 Usage: $(basename "$0") [-d TARGET | -l FILENAME] [-f FILENAME] [-h] [-v] [--resolve IP_FILE] [--proxy PROXY] [--only TOOL1,TOOL2,...] [-a]
 
