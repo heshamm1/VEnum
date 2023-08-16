@@ -55,6 +55,7 @@ VEnum is a Bash script designed to automate subdomain enumeration and analysis. 
   ```
 ## Options:
 * -d: Target domain (required)
+* -l: File containing a list of target domains (one per line)
 * -f: Filepath and name to save results (default: subs.txt)
 * -v: Verbose output
 * --resolve: Resolve subdomains to IPs and save to specified file
