@@ -1,8 +1,4 @@
 subfinder
 assetfinder
-findomain
-amass
 httprobe
-dnsrecon
 sublist3r
-
