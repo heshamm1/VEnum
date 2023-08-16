@@ -44,18 +44,13 @@ while read -r tool; do
       go install github.com/tomnomnom/assetfinder@latest
       ;;
     findomain)
-      wget https://github.com/Edu4rdSHL/findomain/releases/latest/download/findomain-linux
-      chmod +x findomain-linux
-      sudo mv findomain-linux /usr/local/bin/findomain
-      ;;
-    amass)
-      go install github.com/OWASP/Amass/v3/cmd/amass@latest
+      curl -LO https://github.com/findomain/findomain/releases/latest/download/findomain-linux-i386.zip	
+      unzip findomain-linux-i386.zip
+      chmod +x findomain
+      sudo mv findomain /usr/bin/findomain
       ;;
     httprobe)
       go install github.com/tomnomnom/httprobe@latest
-      ;;
-    dnsrecon)
-      pip install dnsrecon
       ;;
     sublist3r)
       git clone https://github.com/aboul3la/Sublist3r.git
@@ -70,4 +65,3 @@ while read -r tool; do
 done < requirements.txt
 
 echo "Setup complete!"
-
